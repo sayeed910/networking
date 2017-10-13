@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c91eee19-f89c-4727-9340-e012a2c7f8ee" name="Default" comment="" />
+    <list default="true" id="c91eee19-f89c-4727-9340-e012a2c7f8ee" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ReliableUDP/Sender/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ReliableUDP/Sender/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ReliableUDP/Sender/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ReliableUDP/Sender/Sender.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ReliableUDP/Sender/src/com/tahsinsayeed/reliableudp/Frame.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ReliableUDP/Sender/src/com/tahsinsayeed/reliableudp/Sender.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ReliableUDP/Sender/test/com/tahsinsayeed/reliableudp/SenderTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ReliableUDP/Server/Receiver.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ReliableUDP/Server/data.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ReliableUDP/Server/src/com/tahsinsayeed/reliableudp/Receiver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ReliableUDP/Server/test/com/tahsinsayeed/reliableudp/ReceiverTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Ping/Client/out/production/DatagramClient/datagramclient/PingClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Ping/Server/out/production/UDP/udp/PingServer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ReliableUDP/Server/Server.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Ping/Client/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Ping/Client/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Ping/Server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Ping/Server/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Ping/Server/src/udp/PingServer.java" afterPath="$PROJECT_DIR$/../Ping/Server/src/udp/PingServer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ReliableUDP/Server/.idea/modules.xml" afterPath="$PROJECT_DIR$/../ReliableUDP/Server/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ReliableUDP/Server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ReliableUDP/Server/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -10,6 +32,63 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CloverPlugin" class="com.atlassian.clover.idea.config.IdeaCloverConfig">
+    <includePassedTestCoverageOnly>true</includePassedTestCoverageOnly>
+    <useGeneratedInitString>true</useGeneratedInitString>
+    <manualInitString null="true" />
+    <showTooltips>true</showTooltips>
+    <failedCoveredHighlight>-3920</failedCoveredHighlight>
+    <periodicRefresh>false</periodicRefresh>
+    <languageLevel>1.8 - lambda functions, virtual extension methods.</languageLevel>
+    <instrumentLambda class="com.atlassian.clover.cfg.instr.java.LambdaInstrumentation">NONE</instrumentLambda>
+    <testCaseLayout class="com.atlassian.clover.idea.config.TestCaseLayout">TEST_CASES</testCaseLayout>
+    <autoScrollFromSource>false</autoScrollFromSource>
+    <coveredHighlight>-3605816</coveredHighlight>
+    <outOfDateStripe>-256</outOfDateStripe>
+    <includes null="true" />
+    <excludes null="true" />
+    <alwaysExpandTestClasses>false</alwaysExpandTestClasses>
+    <autoViewInCloudReport>true</autoViewInCloudReport>
+    <filteredHighlight>-4144960</filteredHighlight>
+    <flushPolicy>0</flushPolicy>
+    <outOfDateHighlight>-32</outOfDateHighlight>
+    <showInline>true</showInline>
+    <dumpInstrumentedSources>false</dumpInstrumentedSources>
+    <hideFullyCovered>false</hideFullyCovered>
+    <autoRefresh>true</autoRefresh>
+    <modelScope class="com.atlassian.clover.idea.util.ModelScope">APP_CLASSES_ONLY</modelScope>
+    <coveredStripe>-16711936</coveredStripe>
+    <highlightCovered>true</highlightCovered>
+    <viewCoverage>true</viewCoverage>
+    <notCoveredHighlight>-341816</notCoveredHighlight>
+    <relativeInitString>false</relativeInitString>
+    <failedCoveredStripe>-14336</failedCoveredStripe>
+    <testViewScope class="com.atlassian.clover.idea.config.TestViewScope">GLOBAL</testViewScope>
+    <showGutter>true</showGutter>
+    <alwaysCollapseTestClasses>false</alwaysCollapseTestClasses>
+    <notCoveredStripe>-65536</notCoveredStripe>
+    <autoScroll>true</autoScroll>
+    <calculateTestCoverage>true</calculateTestCoverage>
+    <autoRefreshInterval>2000</autoRefreshInterval>
+    <generatedInitString>C:\Users\sayee\Documents\Programs\java\Networking\WebServer\.clover\coverage.db</generatedInitString>
+    <regexpContexts class="java.util.ArrayList" />
+    <flushInterval>5000</flushInterval>
+    <flattenPackages>false</flattenPackages>
+    <viewIncludeAnnotation>true</viewIncludeAnnotation>
+    <loadPerTestData>true</loadPerTestData>
+    <showErrorMarks>true</showErrorMarks>
+    <buildWithClover>true</buildWithClover>
+    <lastProjectConfigTabSelected>0</lastProjectConfigTabSelected>
+    <contextFilterSpec />
+    <span>0</span>
+    <instrumentTests>true</instrumentTests>
+    <projectRebuild class="com.atlassian.clover.idea.config.ProjectRebuild">ASK</projectRebuild>
+    <showSummaryInToolbar>true</showSummaryInToolbar>
+    <filteredStripe>-12566464</filteredStripe>
+    <cloudReportIncludeSubpkgs>false</cloudReportIncludeSubpkgs>
+    <enabled>false</enabled>
+    <showSummaryInToolwindow>true</showSummaryInToolwindow>
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/WebServer$ServerTest.coverage" NAME="ServerTest Coverage Results" MODIFIED="1506161261345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -27,22 +106,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TaskHandler.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tahsinsayeed/webserver/TaskHandler.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tahsinsayeed/webserver/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="92" column="5" lean-forward="false" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+            <state relative-caret-position="312">
+              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#TaskHandler#0;class#TaskHandler#0" expanded="true" />
-                <element signature="method#start#0;class#TaskHandler#0" expanded="true" />
-                <element signature="method#handleRequest#0;class#TaskHandler#0" expanded="true" />
-                <element signature="method#sendData#0;class#TaskHandler#0" expanded="true" />
-                <element signature="method#getOutputStream#0;class#TaskHandler#0" expanded="true" />
-                <element signature="method#getRequest#0;class#TaskHandler#0" expanded="true" />
-                <element signature="method#closeStream#0;class#TaskHandler#0" expanded="true" />
-                <element signature="method#getInputStream#0;class#TaskHandler#0" expanded="true" />
-                <element signature="method#sleep#0;class#TaskHandler#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,7 +130,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -124,28 +194,54 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="WebServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebServer" type="462c0819:PsiDirectoryNode" />
+              <item name="WebServer" type="bbb3b172:PsiDirectoryNodeWrapper" />
+            </path>
+            <path>
+              <item name="WebServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebServer" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="src" type="bbb3b172:PsiDirectoryNodeWrapper" />
+            </path>
+            <path>
+              <item name="WebServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebServer" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="src" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="main" type="bbb3b172:PsiDirectoryNodeWrapper" />
+            </path>
+            <path>
+              <item name="WebServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebServer" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="src" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="main" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="java" type="bbb3b172:PsiDirectoryNodeWrapper" />
+            </path>
+            <path>
+              <item name="WebServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebServer" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="src" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="main" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="java" type="bbb3b172:PsiDirectoryNodeWrapper" />
+              <item name="webserver" type="bbb3b172:PsiDirectoryNodeWrapper" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="TEXT" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ping/Server" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -391,6 +487,8 @@
       <workItem from="1506158238291" duration="12752000" />
       <workItem from="1506386956082" duration="7955000" />
       <workItem from="1506407948142" duration="704000" />
+      <workItem from="1507437675492" duration="471000" />
+      <workItem from="1507438168307" duration="702000" />
     </task>
     <task id="LOCAL-00001" summary="changed title in README.md">
       <created>1506194587234</created>
@@ -442,32 +540,35 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30369000" />
+    <option name="totallyTimeSpent" value="31542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Test Runs" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287879" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cloverage" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32829046" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3987441" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -478,6 +579,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="changed title in README.md" />
     <MESSAGE value="Added TaskHandler" />
     <option name="LAST_COMMIT_MESSAGE" value="Added TaskHandler" />
@@ -497,21 +601,52 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tahsinsayeed/webserver/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tahsinsayeed/webserver/TaskHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2392">
+          <caret line="92" column="5" lean-forward="false" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+          <folding>
+            <marker date="1506394183238" expanded="true" signature="44:351" ph="..." />
+            <marker date="1506394183238" expanded="true" signature="635:776" ph="{...}" />
+            <marker date="1506394183238" expanded="true" signature="802:1061" ph="{...}" />
+            <marker date="1506394183238" expanded="true" signature="834:1053" ph="{...}" />
+            <marker date="1506394183238" expanded="true" signature="1095:2971" ph="{...}" />
+            <marker date="1506394183238" expanded="true" signature="3057:3405" ph="{...}" />
+            <marker date="1506394183238" expanded="true" signature="3470:3663" ph="{...}" />
+            <marker date="1506394183238" expanded="true" signature="3715:4170" ph="{...}" />
+            <marker date="1506394183238" expanded="true" signature="4222:4358" ph="{...}" />
+            <marker date="1506394183238" expanded="true" signature="4422:4581" ph="{...}" />
+            <marker date="1506394183238" expanded="true" signature="4608:4746" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tahsinsayeed/webserver/TaskHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4048">
           <caret line="92" column="5" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#TaskHandler#0;class#TaskHandler#0" expanded="true" />
-            <element signature="method#start#0;class#TaskHandler#0" expanded="true" />
-            <element signature="method#handleRequest#0;class#TaskHandler#0" expanded="true" />
-            <element signature="method#sendData#0;class#TaskHandler#0" expanded="true" />
-            <element signature="method#getOutputStream#0;class#TaskHandler#0" expanded="true" />
-            <element signature="method#getRequest#0;class#TaskHandler#0" expanded="true" />
-            <element signature="method#closeStream#0;class#TaskHandler#0" expanded="true" />
-            <element signature="method#getInputStream#0;class#TaskHandler#0" expanded="true" />
-            <element signature="method#sleep#0;class#TaskHandler#0" expanded="true" />
+            <marker date="1506394183238" expanded="true" signature="44:351" ph="..." />
+            <marker date="1506394183238" expanded="true" signature="635:776" ph="{...}" />
+            <marker date="1506394183238" expanded="true" signature="802:1061" ph="{...}" />
+            <marker date="1506394183238" expanded="true" signature="834:1053" ph="{...}" />
+            <marker date="1506394183238" expanded="true" signature="1095:2971" ph="{...}" />
+            <marker date="1506394183238" expanded="true" signature="3057:3405" ph="{...}" />
+            <marker date="1506394183238" expanded="true" signature="3470:3663" ph="{...}" />
+            <marker date="1506394183238" expanded="true" signature="3715:4170" ph="{...}" />
+            <marker date="1506394183238" expanded="true" signature="4222:4358" ph="{...}" />
+            <marker date="1506394183238" expanded="true" signature="4422:4581" ph="{...}" />
+            <marker date="1506394183238" expanded="true" signature="4608:4746" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -623,17 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tahsinsayeed/webserver/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <marker date="1506390608573" expanded="true" signature="44:150" ph="..." />
-            <marker date="1506390608573" expanded="true" signature="256:553" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tahsinsayeed/webserver/RequestBus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -657,19 +781,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tahsinsayeed/webserver/TaskHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="92" column="5" lean-forward="false" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+        <state relative-caret-position="329">
+          <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding>
+            <marker date="1506394183238" expanded="true" signature="44:351" ph="..." />
+            <marker date="1506394183238" expanded="true" signature="635:776" ph="{...}" />
+            <marker date="1506394183238" expanded="true" signature="802:1061" ph="{...}" />
+            <marker date="1506394183238" expanded="true" signature="834:1053" ph="{...}" />
+            <marker date="1506394183238" expanded="true" signature="1095:2971" ph="{...}" />
+            <marker date="1506394183238" expanded="true" signature="3057:3405" ph="{...}" />
+            <marker date="1506394183238" expanded="true" signature="3470:3663" ph="{...}" />
+            <marker date="1506394183238" expanded="true" signature="3715:4170" ph="{...}" />
+            <marker date="1506394183238" expanded="true" signature="4222:4358" ph="{...}" />
+            <marker date="1506394183238" expanded="true" signature="4422:4581" ph="{...}" />
+            <marker date="1506394183238" expanded="true" signature="4608:4746" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tahsinsayeed/webserver/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#TaskHandler#0;class#TaskHandler#0" expanded="true" />
-            <element signature="method#start#0;class#TaskHandler#0" expanded="true" />
-            <element signature="method#handleRequest#0;class#TaskHandler#0" expanded="true" />
-            <element signature="method#sendData#0;class#TaskHandler#0" expanded="true" />
-            <element signature="method#getOutputStream#0;class#TaskHandler#0" expanded="true" />
-            <element signature="method#getRequest#0;class#TaskHandler#0" expanded="true" />
-            <element signature="method#closeStream#0;class#TaskHandler#0" expanded="true" />
-            <element signature="method#getInputStream#0;class#TaskHandler#0" expanded="true" />
-            <element signature="method#sleep#0;class#TaskHandler#0" expanded="true" />
           </folding>
         </state>
       </provider>

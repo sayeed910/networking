@@ -18,7 +18,7 @@ public class PingServer {
             socket.receive(request);
             printData(request);
             //simulate delay
-            Thread.sleep( (100));
+            Thread.sleep( ((int)(Math.random() * 100)));
 
             InetAddress clientHost = request.getAddress();
             int clientPort = request.getPort();
@@ -29,9 +29,6 @@ public class PingServer {
         }
     }
 
-    /*
-     * Print ping data to the standard output stream.
-     */
     private static void printData(DatagramPacket request) throws Exception
     {
         byte[] buf = request.getData();
