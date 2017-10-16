@@ -7,14 +7,14 @@ import java.util.logging.Logger;
 public class Receiver {
     public static final int BUFFER_SIZE = 1024;
     private final DatagramSocket socket;
-    private static final int WINDOW_SIZE = 8;
+    private static final int PACKETS_PER_FRAME = 8;
     private String receivedData = "";
     private boolean running;
     private final DatagramPacket receivedPacket;
     private DatagramPacket sentPacket;
     private int requiredFrameNo = 0;
 
-    private Receiver(int port) {
+    public Receiver(int port) {
         socket = createSocket(port);
         receivedPacket = new DatagramPacket(new byte[BUFFER_SIZE], BUFFER_SIZE);
         sentPacket = new DatagramPacket(new byte[30], 30);
@@ -28,9 +28,6 @@ public class Receiver {
         }
     }
 
-    public static Receiver create(int port) {
-        return new Receiver(port);
-    }
 
     public void start() {
         running = true;
@@ -45,26 +42,23 @@ public class Receiver {
         receivePacket(receivedPacket);
         String packetData = new String(receivedPacket.getData()).trim();
         char c = packetData.charAt(0);
+        int receivedFrameNo = c - '0';
 
         if (isEndOfTransmission(c)){
             stop();
             return;
         }
 
-        receivedData += packetData.substring(1);
-        int receivedFrameNo = c - '0';
-        sendReply(receivedFrameNo);
+        if (isRequiredFrame(receivedFrameNo)) {
+            sendAck(++requiredFrameNo % (PACKETS_PER_FRAME + 1));
+            receivedData += packetData.substring(1);
+        }
+        else
+            sendAck(requiredFrameNo);
     }
 
     private boolean isEndOfTransmission(char c) {
         return c == '-';
-    }
-
-    private void sendReply(int receivedFrameNo) {
-        if (isRequiredFrame(receivedFrameNo))
-            sendAck(++requiredFrameNo);
-        else
-            sendAck(requiredFrameNo);
     }
 
     private boolean isRequiredFrame(int receivedFrameNo) {
@@ -112,4 +106,6 @@ public class Receiver {
     public boolean isRunning() {
         return running;
     }
+
+
 }

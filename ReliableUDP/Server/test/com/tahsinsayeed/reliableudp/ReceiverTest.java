@@ -2,13 +2,15 @@ package com.tahsinsayeed.reliableudp;
 
 import org.junit.*;
 
-import java.io.*;
-import java.net.*;
+import java.io.IOException;
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.net.InetAddress;
+import java.net.UnknownHostException;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.IsEqual.equalTo;
 import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
 
 public class ReceiverTest {
 
@@ -22,7 +24,7 @@ public class ReceiverTest {
 
     @Before
     public void setUp() throws Exception {
-        receiver = Receiver.create(1234);
+        receiver = new Receiver(1234);
         sender = new DatagramSocket(1235);
     }
     @After

@@ -20,8 +20,10 @@ public class Sender {
         }
     }
 
-    public void startTransmission(){
-        new Thread(this::receiveRespose).start();
+    public void send(){
+        Thread responseReceiver = new Thread(this::receiveResponse);
+        responseReceiver.start();
+
         frame.slide(packetToSendNext);
         while(frame.hasNext()){
             for (String data : frame.next()){
@@ -31,12 +33,18 @@ public class Sender {
             delay(1000);
             frame.slide(packetToSendNext);
         }
+
+        responseReceiver.interrupt();
+        packetToSend.setData("-end".getBytes());
+        sendPacket();
     }
 
-    public void receiveRespose(){
-        DatagramPacket packet = new DatagramPacket(new byte[100], 100);
-        receivePacket(packet);
-        packetToSendNext = new String(packet.getData()).charAt(0) -  '0';
+    public void receiveResponse(){
+        while(!Thread.interrupted()) {
+            DatagramPacket packet = new DatagramPacket(new byte[100], 100);
+            receivePacket(packet);
+            packetToSendNext = new String(packet.getData()).charAt(0) - '0';
+        }
     }
 
     private void receivePacket(DatagramPacket packet){
